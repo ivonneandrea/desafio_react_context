@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    align-items: center;
+}
+
+.App {
+    font-family: "Maitree", serif;
+    text-align: center;
+    color: #43a047;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+/* Navbar */
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar {
+    padding: 0rem 2rem;
+    width: auto;
+    background: #43a047;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* gallery */
+.gallery {
+    display: grid;
+    gap: 10px;
+}
+
+.grid-columns-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.photoGallery {
+    background-size: cover;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photoFavorites {
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galleryIcon {
+    align-self: flex-end;
+    padding-right: 0.5rem;
+}
+
+.galleryAlt {
+    color: white;
+    font-weight: 600;
+  
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+/* Not found page */
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.notFoundImg {
+    width: 30%;
+}
